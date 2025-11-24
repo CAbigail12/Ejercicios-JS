@@ -1,5 +1,5 @@
 //Ejemplo con declaración if 
-let edad = 18;
+let edad = 17;
 
 if (edad >= 18) { // aquí se asigna la condición
     console.log("Es mayor de edad"); // se imprime 
@@ -12,13 +12,13 @@ function bloqueEjemplo() {
         let bloqueVar = 'Soy una variable de bloque'; //Aqui asigno variable bloque
         console.log(bloqueVar); // Es valido aquí tambien la variable
     }
-    console.log(bloqueVar); // Este no mas muestra error bloqueVar que no está definida
+    //console.log(bloqueVar); // Este no mas muestra error bloqueVar que no está definida
 }
 bloqueEjemplo();
 
 
 if (true) {
-    let saludo = "Hola!";
+    let saludo = "Hola haciendo pruebas desde el bloque";
     console.log(saludo); // este si funciona 
 }
 
